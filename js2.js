@@ -10,5 +10,7 @@ function findNumbFromArr(array,number){
     //return -1;
     return display;
 }
-console.log(arr,8);
-console.log(arr,12);
+let find8 = findNumbFromArr(arr,8);
+let find12 = findNumbFromArr(arr,12)
+console.log(find8);
+console.log(find12);
