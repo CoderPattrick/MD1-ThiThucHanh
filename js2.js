@@ -6,11 +6,11 @@ function findNumbFromArr(array,number){
             return i;
         }
     }
-    display ="Number "+number+" not found in array."
+    display ="Number "+number+" not found in array.";
     //return -1;
     return display;
 }
 let find8 = findNumbFromArr(arr,8);
-let find12 = findNumbFromArr(arr,12)
+let find12 = findNumbFromArr(arr,12);
 console.log(find8);
 console.log(find12);
