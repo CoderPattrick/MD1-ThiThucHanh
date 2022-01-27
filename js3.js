@@ -1,7 +1,7 @@
 let arr1 = "nscnjqigveuqouf1218y";
 let arr2 = "qwrtp123";
 function findVowel(text){
-    let vowel=['a','o','e','u','i'];
+    let vowel=['a','o','e','u','i','A','O','E','U','I'];
     let countVowel = 0;
     for (let i = 0; i < text.length; i++) {
         for (let j = 0; j < vowel.length; j++) {

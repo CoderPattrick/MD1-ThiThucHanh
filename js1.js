@@ -1,6 +1,16 @@
 //ax+b=0
 function calculateFirstDegreeEquation(a,b){
-    let x = -b/a;
+    let x;
+    if(a==0){
+        if(b==0){
+            x = "Vô số nghiệm.";
+        }
+        else {
+            x="Vô nghiệm.";
+        }
+        return x;
+    }
+    x = -(b/a);
     return x;
 }
 let result= calculateFirstDegreeEquation(5,8);
